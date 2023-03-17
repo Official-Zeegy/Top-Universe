@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #080217;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    max-width: 88%;
+    margin: 0 auto;
+}
+
+.alert{
+    color: rgb(142, 142, 142);
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 16px;
+}
+
+.join-server{
+    padding: 4px 8px;
+    background-color: blue;
+    border-radius: 4px;
+    margin-left: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.join-server:hover{
+    background-color: rgba(0, 0, 255, 0.529);
+    color: rgba(255, 255, 255, 0.821);
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    padding: 12px 24px;
+    background-color: rgba(0, 0, 255, 0.211);
+    border-radius: 8px;
+}
+
+.topnav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    margin-left: 24px;
+
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.logo-container p{
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-left: 8px;
+}
+
+.menu:hover{
+    color: rgb(72, 72, 249);
+}
+
+.navmenu a:active{
+    color: rgb(0, 0, 255);
+}
+
+.navbutton{
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+.donate{
+    border: 1px solid blue;
+    color: blue;
+}
+
+.donate:hover{
+    background-color: rgba(0, 0, 255, 0.529);
+    color: white;
+}
+
+.internships{
+    background-color: blue;
+}
+
+.internships:hover{
+    background-color: rgba(0, 0, 255, 0.529);
+    color: rgba(255, 255, 255, 0.821);
+}
+
+.content {
+    margin-top: 32px;
+    color: white;
+    text-align: center;
+    width: 88%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 56px;
+    font-size: 5.6rem;
+    line-height: 125%;
+}
+
+.content p {
+    font-weight: 100;
+    font-size: 2.0rem;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.711);
+    margin-top: 24px;
+}
+
+.content a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: blue;
+    font-size: 1.4rem;
+    margin-top: 24px;
+}
+
+.content a:hover {
+    background-color: rgba(0, 0, 255, 0.529);
+    color: rgba(255, 255, 255, 0.821);
+}
+
+.herobutton {
+    margin-top: 32px;
+    width: 100%;
+}
+
+.herobutton a {
+    width: 100px;
+}
+
+.brandimage {
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 56px;
+}
+
+.brandimage img{
+    width: 100%;
+}
+
+video{
+    margin: 0 auto;
+    display: block;
+    margin-top: 56px;
+}
