@@ -49,13 +49,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 16px;
+    margin: 16px auto 0;
     padding: 12px 24px;
-    background-color: rgb(1, 1, 177);
+    background-color: rgba(0, 0, 255, 0.098);
     border-radius: 8px;
     position: sticky;
     top: 16px;
     z-index: 1000;
+    max-width: 88%;
 }
 
 .topnav a{
@@ -173,4 +174,115 @@ h1 {
     margin: 0 auto;
     display: block;
     margin-top: 56px;
+    border-radius: 8px;
+}
+
+.second-section {
+    color: white;
+    /* border: 2px dotted red; */
+    width: 88%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.courses {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.course {
+    border-radius: 8px;
+    overflow: hidden;
+    flex: 0 0 350px;
+    margin: 16px 8px;
+    background-color: rgba(0, 0, 255, 0.098);
+}
+
+#courseImage {
+    width: 100%;
+}
+
+.courseContent {
+    padding: 16px 24px;
+    text-align: left;
+}
+
+.course h2 {
+    color: blue;
+}
+
+.course p {
+    opacity: 0.8;
+    margin-top: 8px;
+}
+
+.cardButton {
+    display: flex;
+    color: white;
+    width: 100%;
+    height: 4.0rem;
+    align-items: center;
+    justify-content: center;
+    margin: 16px auto 0;
+    border: 1px solid blue;
+    border-radius: 4px;
+    font-size: 1.4rem;
+}
+
+.cardButton:hover{
+    background-color: rgba(0, 0, 255, 0.529);
+    color: white;
+}
+
+.thirdSection {
+    text-align: center;
+    color: white;
+    width: 88%;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightSection {
+    margin-top: 200px;
+}
+
+.leftSection img {
+    position: sticky;
+    margin-top: 100px;
+    top: 100px;
+}
+
+.test {
+    width: 350px;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 255, 0.132);
+    border-radius: 8px;
+    padding: 32px 24px;
+}
+
+.test img {
+    margin-bottom: 8px;
+    width: 64px;
+    border-radius: 50%;
+}
+
+.test h2 {
+    font-size: 2.4;
+    margin-bottom: 8px;
+}
+
+.test p {
+    color: white;
+    font-size: 1.4rem;
+    opacity: 0.8;
 }
